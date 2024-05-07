@@ -1,11 +1,14 @@
-// https://dev.to/andrewgeorge/minimal-vscode-ui-343e
+// ui tutorial:                         https://dev.to/andrewgeorge/minimal-vscode-ui-343e
+// install jetbrains mono font:         https://www.jetbrains.com/lp/mono/
+// catpuccin vsix file download:        https://open-vsx.org/extension/Catppuccin/catppuccin-vsc
 
 {
-    "editor.fontFamily": "'Jetbrain Mono', 'monospace', monospace",
+    "editor.fontFamily": "'Jetbrains Mono'",
     "workbench.sideBar.location": "right",
     "workbench.statusBar.visible": false,
     "editor.minimap.enabled": false,
     "breadcrumbs.enabled": false,
     "workbench.activityBar.location": "hidden",
-    "window.menuBarVisibility": "toggle"
-}
+    "window.menuBarVisibility": "toggle",
+    "workbench.colorTheme": "Catppuccin Mocha",
+}   
